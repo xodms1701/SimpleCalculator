@@ -45,17 +45,18 @@
         android:id="@+id/but_plus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+"
-        android:background="#FF8D8A"
         android:layout_margin="5dp"
-        />
+        android:background="#FF8D8A"
+        android:text="+" />
+
     <Button
         android:id="@+id/but_minus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="-"
+        android:layout_margin="5dp"
         android:background="#FF8D8A"
-        android:layout_margin="5dp"/>
+        android:text="-" />
+
     <Button
         android:id="@+id/but_multiply"
         android:layout_width="match_parent"
