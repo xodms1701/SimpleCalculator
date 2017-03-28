@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity /*implements View.OnClickLis
                     result = num1 / num2;
                     break;
             }
-            textResult.setText(result);
+            textResult.setText(Integer.toString(result));
         }
     };
 
